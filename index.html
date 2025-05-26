@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, viewport-fit=cover">
+    <title>DEVANSHU MEENA | Aspiring  Software Engineer</title>
+    <meta name="description" content="Portfolio of Alexandra Code - Senior Software Engineer specializing in full-stack development, cloud architecture, and system design">
+    <link rel="preload" href="main.css" as="style">
+    <link rel="preload" href="main.js" as="script">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo" aria-label="Home">DEVANSHU<span> MEENA</span></a>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active" aria-current="page">Home</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#expertise" class="nav-link">Expertise</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="devanshu.pdf" class="btn btn-primary" download="Alexandra_Code_Resume.pdf">
+                    <span>Resume</span>
+                    <i class="fas fa-download"></i>
+                </a>
+            </div>
+            <button class="hamburger" aria-label="Menu" aria-expanded="false">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name">DEVANSHU MEENA</span>
+                </h1>
+                <div class="typewriter">
+                    <span class="typewriter-text"></span>
+                    <span class="typewriter-cursor">|</span>
+                </div>
+                <p class="hero-text">
+                   Crafting Smart Solutions with Code & Curiosity. <br>
+Aspiring Software Engineer | AI Explorer | Code Crafter @ Pupilfirst
+Fueling innovation through hands-on projects and curious coding. Blending creativity with tech in AI, web, and app development. Fluent in Python, HTML, CSS, and JavaScript. On a mission to turn ideas into intelligent solutions — one line of code at a time.
+ 
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary btn-lg">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-down"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline btn-lg">
+                        <span>Let's Connect</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="visual-container">
+                    <div class="code-editor">
+                        <div class="editor-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="file-name">portfolio.tsx</span>
+                        </div>
+                        <div class="editor-content">
+                            <pre><code>const AlexandraCode = () => {
+  return (
+    &lt;SoftwareEngineer&gt;
+      &lt;Expertise areas={[
+        'Full-Stack Development',
+        'Cloud Architecture',
+        'System Design',
+        'Performance Optimization'
+      ]} /&gt;
+      &lt;Technologies stack={[
+        'TypeScript', 'React', 'Node.js',
+        'Python', 'AWS', 'Kubernetes'
+      ]} /&gt;
+      &lt;Contact availableForWork={true} /&gt;
+    &lt;/SoftwareEngineer&gt;
+  );
+};</code></pre>
+                        </div>
+                    </div>
+                    <div class="tech-sphere">
+                        <div class="orbiting-tech">
+                            <div class="tech-icon" style="--i:1"><i class="fab fa-react"></i></div>
+                            <div class="tech-icon" style="--i:2"><i class="fab fa-node-js"></i></div>
+                            <div class="tech-icon" style="--i:3"><i class="fab fa-python"></i></div>
+                            <div class="tech-icon" style="--i:4"><i class="fab fa-aws"></i></div>
+                            <div class="tech-icon" style="--i:5"><i class="fas fa-database"></i></div>
+                            <div class="tech-icon" style="--i:6"><i class="fab fa-docker"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <div class="container">
+                <h2 class="section-title"><span>Projects</span></h2>
+                <p class="section-subtitle">A curated collection of my most impactful work</p>
+            </div>
+        </div>
+            <div class="projects-grid" id="projects-container">
+                <!-- Project 1 -->
+                <article class="project-card" data-category="web cloud">
+                    <div class="project-media">
+                        <div class="project-image">
+                            <img src="mental.jpg" alt="Digital Mental Support" loading="lazy">
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Godzilla108108/final" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span>Code</span>
+                            </a>
+                            <a href="https://godzilla108108.github.io/final/" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Live Demo</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Digital Mental Mealth Support</h3>
+                        <p class="project-description">
+                           PeaceHub is an online platform focused on promoting mental well-being and mindfulness. It features user authentication for personalized experiences, a collection of informative articles on meditation and mental health, and chat support for connecting with trained staff or peers. Additionally, users can access professional consultations with qualified doctors. With a strong emphasis on user safety and data security, PeaceHub aims to create a supportive community for individuals seeking peace and mental wellness.
+                        </p>
+                        <div class="project-meta">
+                            <div class="project-stats">
+                                <span class="stat">
+                                    <i class="fas fa-chart-line"></i>
+                                    
+                                </span>
+                                <span class="stat">
+                                    <i class="fas fa-users"></i>
+                                    
+                                </span>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                
+               
+               <!-- Project 2 -->
+<article class="project-card" data-category="mobile">
+    <div class="project-media">
+        <div class="project-image">
+            <img src="croprecom.png" alt="Crop Recommendation " loading="lazy">
+        </div>
+        <div class="project-links">
+            <a href="https://github.com/Godzilla108108/project" target="_blank" rel="noopener noreferrer" class="https://godzilla108108.github.io/project/">
+                <i class="fab fa-github"></i>
+                <span>Code</span>
+            </a>
+            <!-- Updated Live Demo Link -->
+            <a href="https://godzilla108108.github.io/project/" target="_blank" rel="noopener noreferrer" class="https://godzilla108108.github.io/project/">
+                <i class="fas fa-external-link-alt"></i>
+                <span>Live Demo</span>
+            </a>
+        </div>
+    </div>
+    <div class="project-content">
+        <h3 class="project-title">Crop Recommendation System</h3>
+        <p class="project-description">
+            The Crop Recommendation System is a tool designed to help farmers choose the best crops based on soil and weather conditions. By inputting data such as nitrogen, phosphorus, potassium levels, temperature, humidity, soil pH, and rainfall, users receive tailored crop recommendations. This system aims to optimize agricultural productivity and promote sustainable farming practices, empowering farmers to make informed decisions for better yields.
+        </p>
+        <div class="project-meta">
+            <div class="project-stats">
+                <span class="stat">
+                    <i class="fas fa-star"></i>
+                    
+                </span>
+                <span class="stat">
+                    <i class="fas fa-download"></i>
+                    
+                </span>
+            </div>
+            <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              
+            </div>
+        </div>
+    </div>
+</article>
+                <!-- More projects would be listed here -->
+            </div>
+            
+            <div class="section-footer">
+                <a href="https://github.com/Godzilla108108" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">
+                    <i class="fab fa-github"></i>
+                    <span>View All Projects on GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="expertise">
+        <div class="section-header">
+            <div class="container">
+                <h2 class="section-title">Technical <span>Expertise</span></h2>
+                <p class="section-subtitle">Areas where I provide exceptional value</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <h3 class="expertise-title">HTML</h3>
+                    <p class="expertise-description">
+                        Crafting the backbone of the web with clean, structured, and semantic code. Turning ideas into well-laid foundations for powerful digital experiences.
+                    </p>
+                   
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <i class="fa-solid fa-file-code"></i>
+                    </div>
+                    <h3 class="expertise-title">CSS (Cascading Style Sheets)</h3>
+                    <p class="expertise-description">
+                        CSS brings style to the web — adding colors, layouts, and animations to turn plain HTML into beautiful, responsive, and engaging user interfaces.
+                    </p>
+                    
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <h3 class="expertise-title">JavaScript</h3>
+                    <p class="expertise-description">
+                       The dynamic heart of the web. Bringing interactivity, animations, and real-time functionality to life. From responsive buttons to full-fledged web apps, JS makes the browser come alive. 
+                    </p>
+                   
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+                    <h3 class="expertise-title">Python</h3>
+                    <p class="expertise-description">
+                       A powerful yet beginner-friendly language, perfect for building everything from simple scripts to complex AI models. Clean, readable, and versatile — Python turns ideas into reality with minimal code and maximum impact.
+
+
+                    </p>
+                  
+                </div>
+            </div>
+            
+            <div class="skills-section">
+                <div class="skills-visual">
+                    <div class="skills-radar">
+                        <!-- Radar chart would be generated by JavaScript -->
+                        <canvas id="skillsRadar"></canvas>
+                    </div>
+                </div>
+                <div class="skills-details">
+                    <h3 class="skills-title">Technology Proficiency</h3>
+                    <p class="skills-description">
+                        My skill set spans across multiple domains, with deep expertise in several core technologies:
+                    </p>
+                    <div class="skills-progress">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name"><HTML></HTML></span>
+                                <span class="skill-percent">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CSS</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percent">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <div class="container">
+                <h2 class="section-title">Let's <span>Connect</span></h2>
+                <p class="section-subtitle">I'm currently available for new opportunities and collaborations</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3 class="contact-title">Email Me</h3>
+                        <a href="devanshu14930@gmail.com" class="contact-link">devanshu14930@gmail.com</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <h3 class="contact-title">LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/devanshu-meena-software-developer-ai-ml?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bns8kzq4KRKyoFekKSVhMpg%3D%3D" target="_blank" rel="noopener noreferrer" class="contact-link">Devanshu Meena</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3 class="contact-title">GitHub</h3>
+                        <a href="https://github.com/Godzilla108108" target="_blank" rel="noopener noreferrer" class="contact-link">Devanshu Meena</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3 class="contact-title">Location</h3>
+                        <p class="contact-text">Jaipur, Rajasthan</p>
+                        <p class="contact-text">Looking for web development internship opportunities</p>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-lg">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                    
+                    <div class="form-status" id="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">Devanshu<span> Meena</span></a>
+                    <p class="footer-text">
+                        Building exceptional digital experiences through clean code and innovative solutions.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#expertise">Expertise</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-title">Technologies</h3>
+                    <ul>
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+z                        <li><a href="#">Python</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h3 class="footer-title">Stay Updated</h3>
+                    <p class="footer-text">
+                        Connect with me for more updates.
+                    </p>
+                    <form class="newsletter-form" id="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" aria-label="Subscribe">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">&copy; <span id="current-year"></span> Devanshu Meena, All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Dev.to">
+                        <i class="fab fa-dev"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
